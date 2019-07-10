@@ -1,4 +1,4 @@
-package innerclass;
+package com.bhavyakamboj.innerclass;
 
 public class HealthCheckupStaticInnerClassDemo{
 	public static void main(String[] args) {

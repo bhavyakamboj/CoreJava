@@ -1,4 +1,4 @@
-package cloning.shallow;
+package com.bhavyakamboj.cloning.shallow;
 class Course
 {
     String subject1;

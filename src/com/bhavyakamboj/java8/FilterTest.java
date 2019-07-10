@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class FilterTest {
 
     public static void main(String[] args) {
-        List<String> words = List.of("Bhavya","Kamboj","is","an","fucking","idiot");
+        List<String> words = List.of("Bhavya","Kamboj","is","an","idiot");
         words.stream()
                 .filter(word -> !"fucking".equals(word))
                 .collect(Collectors.toList())

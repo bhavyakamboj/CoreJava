@@ -1,4 +1,4 @@
-package staticclass;
+package com.bhavyakamboj.staticclass;
 
 class Elephant {
 	   private static int count;

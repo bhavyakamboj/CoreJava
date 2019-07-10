@@ -20,6 +20,6 @@ public class ForEachTest {
 
         Map<Integer, Integer> ints = new HashMap<>();
         ThreadLocalRandom.current().ints(10, 1,10).filter(x->x>5).forEach(System.out::println);
-
+        
     }
 }

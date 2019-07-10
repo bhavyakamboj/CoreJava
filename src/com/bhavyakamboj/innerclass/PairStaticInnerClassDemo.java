@@ -1,10 +1,9 @@
-package innerclass;
+package com.bhavyakamboj.innerclass;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import innerclass.StaticPairOperationImpl.Pair1;
+import static com.bhavyakamboj.innerclass.StaticPairOperationImpl.Pair1;
 
 interface PairOperationInterface1 {
 	Pair1 executeOperation();

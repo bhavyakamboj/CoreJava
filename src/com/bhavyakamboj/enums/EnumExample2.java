@@ -1,4 +1,4 @@
-package enums;
+package com.bhavyakamboj.enums;
 
 public class EnumExample2 {
 	enum Season2{

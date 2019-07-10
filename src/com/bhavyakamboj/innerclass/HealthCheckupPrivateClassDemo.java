@@ -1,4 +1,4 @@
-package innerclass;
+package com.bhavyakamboj.innerclass;
 
 public class HealthCheckupPrivateClassDemo {
 

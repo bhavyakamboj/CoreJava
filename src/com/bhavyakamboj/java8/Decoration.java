@@ -1,4 +1,4 @@
-package java8;
+package com.bhavyakamboj.java8;
 
 import java.util.ArrayList;
 import java.util.Collections;

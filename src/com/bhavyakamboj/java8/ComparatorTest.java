@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ComparatorTest {
     public static List<Employee> generateEmployees(){
-        return new ArrayList<>(){
+        return new ArrayList<Employee>(){
             {
                 add(new Employee(11,"Chirag",4242552));
                 add(new Employee(43,"Abhinav",4592572));

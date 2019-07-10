@@ -1,3 +1,5 @@
+package com.bhavyakamboj;
+
 import java.util.*;
 
 public class CollectionExample {

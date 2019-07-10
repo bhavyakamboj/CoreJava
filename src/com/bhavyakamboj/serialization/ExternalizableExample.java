@@ -1,4 +1,4 @@
-package serialization;
+package com.bhavyakamboj.serialization;
 
 import java.io.Externalizable;
 import java.io.FileInputStream;

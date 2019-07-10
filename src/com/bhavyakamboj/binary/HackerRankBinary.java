@@ -1,4 +1,4 @@
-package binary;
+package com.bhavyakamboj.binary;
 
 import java.io.*;
 import java.math.*;

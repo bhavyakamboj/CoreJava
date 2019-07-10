@@ -1,4 +1,4 @@
-package multithreading;
+package com.bhavyakamboj.multithreading;
 
 import java.io.IOException;
 import java.util.ArrayList;

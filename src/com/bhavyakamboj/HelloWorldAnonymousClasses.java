@@ -1,3 +1,5 @@
+package com.bhavyakamboj;
+
 public class HelloWorldAnonymousClasses {
   
     interface HelloWorld {

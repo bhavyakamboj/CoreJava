@@ -1,4 +1,4 @@
-package exception;
+package com.bhavyakamboj.exception;
 
 public class BakeOven {
 	public static boolean isOvenOn = false;

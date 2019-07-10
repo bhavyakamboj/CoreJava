@@ -1,4 +1,4 @@
-package arrays;
+package com.bhavyakamboj.arrays;
 
 import java.util.*;
 import java.lang.*;
