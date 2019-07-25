@@ -3,6 +3,7 @@ package com.bhavyakamboj.java8;
 import com.bhavyakamboj.java8.ComparatorTest;
 import com.bhavyakamboj.java8.Employee;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -11,7 +12,7 @@ import java.util.stream.Stream;
 public class FilterTest {
 
     public static void main(String[] args) {
-        List<String> words = List.of("Bhavya","Kamboj","is","an","idiot");
+        List<String> words = Arrays.asList("Bhavya", "Kamboj", "is", "an", "idiot");
         words.stream()
                 .filter(word -> !"fucking".equals(word))
                 .collect(Collectors.toList())

@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 public class GroupByTest {
     public static void main(String[] args) {
-        List.of(0,1,2,3,4,5,6,7,8,9,1,2,5,2,2,4,0,6,2,7,8,9,3,0,7,5,4,6,8,9).stream()
+        Stream.of(0,1,2,3,4,5,6,7,8,9,1,2,5,2,2,4,0,6,2,7,8,9,3,0,7,5,4,6,8,9)
                 .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
                 .forEach((x,v)-> System.out.println("Number: " +x + ", count: " + v));
 
@@ -27,7 +27,7 @@ public class GroupByTest {
         System.out.println("Printing stream of Integers");
 
         Map<Integer, Long> result = ThreadLocalRandom.current().ints(1000, 0, 10)
-                .mapToObj(Integer::valueOf)
+                .boxed()
                 .sorted()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting())); //.counting()
 
